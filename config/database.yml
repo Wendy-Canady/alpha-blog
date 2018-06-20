@@ -24,7 +24,7 @@ production:
   adapter: postgresql
   pool: 5
   timeout: 5000
-  url: ec2-50-16-196-238.compute-1.amazonaws.com
-  database: d2qmd899o1d267
-  username: nkvbkupeqfwznt
-  password: 906fd64b83ed3f2c02caa8de133831e0794f60141968c3bfb59cd89835a43808
+  url: <%= ENV['DATABASE_URL'] %>
+  # database: d2qmd899o1d267
+  # username: nkvbkupeqfwznt
+  # password: 906fd64b83ed3f2c02caa8de133831e0794f60141968c3bfb59cd89835a43808
